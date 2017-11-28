@@ -1,2 +1,2 @@
-# Verk1
-Verkefni1
+# Verk 1
+Verkefni 1
