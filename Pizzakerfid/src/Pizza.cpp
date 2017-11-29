@@ -20,7 +20,7 @@ Pizza::Pizza(int numberOfToppings){
 
 Pizza::~Pizza()
 {
-    if(toppings != 0){
+    if(toppings != 0) {
         delete[] toppings;
     }
 }

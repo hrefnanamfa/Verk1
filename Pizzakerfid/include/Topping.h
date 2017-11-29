@@ -14,7 +14,9 @@ class Topping
         Topping();
         Topping (char *name, double price);
         virtual ~Topping();
+
         friend ostream& operator <<(ostream& out, const Topping& topping);
+        friend istream& operator >>(istream& out, Topping& topping);
 
 };
 

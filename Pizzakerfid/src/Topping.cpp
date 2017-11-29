@@ -22,3 +22,14 @@ ostream& operator <<(ostream& out, const Topping& topping){
 
     return out;
 }
+
+istream& operator >>(istream& in, Topping& topping) {
+
+    cout << "Name: ";
+    in >> topping.name;
+
+    cout << "Price: ";
+    in >> topping.price;
+
+    return in;
+}

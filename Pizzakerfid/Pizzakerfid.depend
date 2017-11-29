@@ -68,29 +68,62 @@
 	<iostream>
 	"MainUI.h"
 
-1511970363 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/MainUI.h
+1511976562 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/MainUI.h
 	<iostream>
 	<string>
 	"ManagerUI.h"
+	"SalesUI.h"
+	"BakeUI.h"
+	"DeliveryUI.h"
 
 1511965665 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/ManagerUI.h
 	<iostream>
 	<string>
 	"Pizza.h"
 
-1511972625 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/Pizza.h
+1511973280 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/Pizza.h
 	<iostream>
 	"Topping.h"
 
-1511972327 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/Topping.h
+1511977370 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/Topping.h
 	<iostream>
 
-1511970370 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/MainUI.cpp
+1511974373 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/MainUI.cpp
 	"MainUI.h"
 
-1511970370 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/ManagerUI.cpp
+1511976816 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/ManagerUI.cpp
 	"ManagerUI.h"
 
-1511970370 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/Pizza.cpp
+1511973612 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/Pizza.cpp
 	"Pizza.h"
+
+1511977370 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/Topping.cpp
+	"Topping.h"
+	<string.h>
+
+1511974954 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/SalesUI.h
+
+1511975943 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/BakeUI.h
+
+1511976547 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/DeliveryUI.h
+
+1511977558 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/BakeUI.cpp
+	"BakeUI.h"
+	"PizzaUI.h"
+	<iostream>
+
+1511977568 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/DeliveryUI.cpp
+	"DeliveryUI.h"
+	<iostream>
+
+1511977582 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/SalesUI.cpp
+	"SalesUI.h"
+	<iostream>
+
+1511976981 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/PizzaUI.h
+
+1511977467 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/PizzaUI.cpp
+	"PizzaUI.h"
+	"Pizza.h"
+	<iostream>
 
