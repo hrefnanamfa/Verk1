@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1511961356 source:c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\main.cpp
+	<iostream>
+	"MainUI.h"
+
+1511961691 c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\include\mainui.h
+	<iostream>
+	<string>
+	"ManagerUI.h"
+
+1511962096 source:c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\src\mainui.cpp
+	"MainUI.h"
+
+1511963284 c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\include\managerui.h
+	<iostream>
+	<string>
+	"Pizza.h"
+
+1511963066 source:c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\src\managerui.cpp
+	"ManagerUI.h"
+
+1511964992 source:c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\src\pizza.cpp
+	"Pizza.h"
+
+1511965078 c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\include\pizza.h
+	"Topping.h"
+	<iostream>
+
+1511962369 source:c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\src\topping.cpp
+	"Topping.h"
+
+1511965012 c:\users\hrefn\documents\hellohrefna\verklega námskeið\adalverkefnid\pizzakerfid\include\topping.h
+	<iostream>
+	"Pizza.h"
+
