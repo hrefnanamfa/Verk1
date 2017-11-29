@@ -1,10 +1,8 @@
 #ifndef PIZZA_H
 #define PIZZA_H
-#include "Topping.h"
 #include <iostream>
-
+#include "Topping.h"
 using namespace std;
-
 
 class Pizza
 {
@@ -15,9 +13,11 @@ class Pizza
     public:
         Pizza();
         Pizza(int numberOfToppings);
+        int getToppingCount()const;
         virtual ~Pizza();
         void addTopping(Topping topping);
-        friend ostream& operator <<(ostream&out, const Pizza& pizza);
+        friend ostream& operator >>(ostream&out, const Pizza& pizza);
+        friend istream& operator <<(istream&in, const Pizza& pizza);
 
 };
 

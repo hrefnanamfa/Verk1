@@ -14,7 +14,6 @@ MainUI::~MainUI()
 void MainUI::startUI(){
     char selection = '\0';
 
-
     while(selection != 'q'){
 
         cout << "Please choose your position:" << endl;
@@ -31,7 +30,6 @@ void MainUI::startUI(){
         }
 
         else if(selection == 's'){
-
         }
 
         else if(selection == 'b'){

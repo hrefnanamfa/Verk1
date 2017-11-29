@@ -12,27 +12,27 @@ ManagerUI::~ManagerUI()
 void ManagerUI::startUI(){
     char selection = '\n';
     while (selection != 'q'){
-    cout << "Choose your appropriate option" << endl;
-    cout << "p: Add a type of pizza" << endl;
-    cout << "t: Add toppings" << endl;
-    cout << "m: Make a menu" << endl;
-    cout << "e: Add extras" << endl;
-    cout << "q: to go back" << endl;
+        cout << "Choose your appropriate option" << endl;
+        cout << "p: Add a type of pizza" << endl;
+        cout << "t: Add toppings" << endl;
+        cout << "m: Make a menu" << endl;
+        cout << "e: Add extras" << endl;
+        cout << "q: to go back" << endl;
 
-    cin >> selection;
-    if(selection == 'p'){
+        cin >> selection;
+        if(selection == 'p'){
 
-    }
+        }
 
-    else if(selection == 't'){
+        else if(selection == 't'){
 
-    }
+        }
 
-    else if(selection == 'm'){
+        else if(selection == 'm'){
 
-    }
-    else if(selection == 'e'){
+        }
+        else if(selection == 'e'){
 
-    }
+        }
     }
 }

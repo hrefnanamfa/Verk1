@@ -7,6 +7,8 @@ using namespace std;
 class Topping
 {
     private:
+        string name;
+        double price;
 
     public:
         Topping();

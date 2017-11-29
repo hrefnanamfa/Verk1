@@ -11,9 +11,7 @@ Topping::~Topping()
 }
 ostream& operator <<(ostream&out, const Topping& topping){
 
-    for(int i = 0; i < pizza.toppingCount; i++){
-        out << pizza.toppings[i] << endl;
-    }
+    out << topping.name << " " << topping.price << endl;
 
     return out;
 }
