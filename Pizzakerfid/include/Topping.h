@@ -1,19 +1,20 @@
 #ifndef TOPPING_H
 #define TOPPING_H
 #include <iostream>
-#include "Pizza.h"
+
 using namespace std;
 
 class Topping
 {
     private:
-        string name;
+        char name[32];
         double price;
 
     public:
         Topping();
+        Topping (char *name, double price);
         virtual ~Topping();
-        friend ostream& operator <<(ostream&out, const Topping& topping);
+        friend ostream& operator <<(ostream& out, const Topping& topping);
 
 };
 

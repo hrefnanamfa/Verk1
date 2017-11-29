@@ -64,3 +64,33 @@
 1511964992 source:c:\users\hrefn\documents\hellohrefna\verklega námskeið\verk1\pizzakerfid\src\pizza.cpp
 	"Pizza.h"
 
+1511966061 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/main.cpp
+	<iostream>
+	"MainUI.h"
+
+1511970363 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/MainUI.h
+	<iostream>
+	<string>
+	"ManagerUI.h"
+
+1511965665 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/ManagerUI.h
+	<iostream>
+	<string>
+	"Pizza.h"
+
+1511972625 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/Pizza.h
+	<iostream>
+	"Topping.h"
+
+1511972327 /home/ingi/Documents/skol/Verk1/Pizzakerfid/include/Topping.h
+	<iostream>
+
+1511970370 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/MainUI.cpp
+	"MainUI.h"
+
+1511970370 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/ManagerUI.cpp
+	"ManagerUI.h"
+
+1511970370 source:/home/ingi/Documents/skol/Verk1/Pizzakerfid/src/Pizza.cpp
+	"Pizza.h"
+
